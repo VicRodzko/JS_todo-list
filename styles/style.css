@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+body {
+	background: black;
+}
+div {
+	width: 500px;
+	margin: 0 auto;
+}
+div>img {
+	width: 500px;
+}
+input {
+	background: white;
+	color: black;
+}
+.remove {
+	background-image: url(../images/cancel-mark.svg);
+	background-size: 100%;
+	display: block;
+	width: 20px;
+	height: 20px;
+	float: right;
+	margin: 5px 15px 5px 5px;
+}
+h2 {
+	display: block;
+	margin: 0 auto;
+	width: 220px;
+	padding-bottom: 10px;
+	margin-top: -20px;
+	text-transform: uppercase;
+}
+li {
+	background: #470006;
+	display: block;
+	height: 30px;
+	margin: 4px;
+	border-radius: 5px;
+	line-height: 28px;
+	padding-left: 15px;
+}
+input {
+	width: 343px;
+	height: 20px;
+	margin-right: 2px;
+	border-radius: 4px;
+	padding-left: 7px;
+}
+.btnAdd {
+	width: 50px;
+	height: 24px;
+	border-radius: 4px;
+	border-color: gray;
+	text-transform: uppercase;
+	background: #470006;
+	font-weight: bold;
+}
+.last {
+	width: 412px;
+	margin: 5px auto;
+	/*display: none;*/
+}
+.addItem {
+	width: 90px;
+	height: 24px;
+	border-radius: 4px;
+	border-color: gray;
+	text-transform: uppercase;
+	background: #470006;
+	font-weight: bold;
+	float: right;
+}
+.firstLast {
+	width: 412px;
+	margin: 5px auto;
+	/*display: none;*/
+}
